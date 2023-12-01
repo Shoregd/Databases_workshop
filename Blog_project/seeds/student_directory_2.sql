@@ -1,9 +1,3 @@
-DROP TABLE IF EXISTS cohorts;
-DROP SEQUENCE IF EXISTS cohorts_id_seq;
-DROP TABLE IF EXISTS students;
-DROP SEQUENCE IF EXISTS students_id_seq;
-
-
 CREATE TABLE cohorts (
   id SERIAL PRIMARY KEY,
   name text,
